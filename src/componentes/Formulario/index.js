@@ -52,7 +52,7 @@ const Formulario = (props) => {
                     itens={racas}
                     valor={raca}
                     aoAlterado={valor => setRaca(valor)}
-                />
+                />ra
                 <Lista label="Classe"
                     itens={classes}
                     valor={classes}

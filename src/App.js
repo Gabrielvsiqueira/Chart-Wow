@@ -34,7 +34,7 @@ function App() {
           nome={classe.nome}
           corPrimaria={classe.corPrimaria}
           corSecundaria={classe.corSecundaria}
-          personagens={personagens.filter(personagem => personagem.faccao === classe.nome)}
+          personagens={personagens.filter(personagem => personagem.raca === classe.nome)}
         />
       ))}
     </div>
